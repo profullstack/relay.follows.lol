@@ -49,7 +49,7 @@ RUN \
 
 COPY --from=build /build/strfry strfry
 
-EXPOSE 7777
+EXPOSE 7071
 
 ENTRYPOINT ["/app/strfry"]
 CMD ["relay"]
